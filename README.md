@@ -1,71 +1,49 @@
-# Getting Started with Create React App
+### a. Instructions about how to run and test your code.
+# Movie List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Movie List application that allows users to view a list of upcoming movies, search for movies, and view movie details.
 
-## Available Scripts
+## Instructions
 
-In the project directory, you can run:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+5. Open your browser and navigate to http://localhost:3000 to access the app.
 
-### `npm start`
+Note : I am aware of not to commit env files but for testing purpose i did and key will be disabled after 5 days. Then you have to create your own key from the https://www.themoviedb.org/settings/api .
+## Test Cases
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Due to time constraints related to my office work, I was unable to write comprehensive test cases for the application. Testing is an essential part of ensuring the stability and correctness of the codebase, and I acknowledge its importance. While I haven't included tests in the current version of the project, I plan to allocate time in the future to add unit tests and integration tests to cover different components, behaviors, and use cases.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I understand that having a robust test suite is beneficial for long-term maintainability and development, and I intend to prioritize this aspect as I continue to work on the project.
 
-### `npm test`
+## Elements Demonstrating Proficiency
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Dependency Management:** Effectively managed project dependencies using `package.json`, with attention to specific versions for dependencies such as `@mui/material`, `axios`, `lodash`, and more.
 
-### `npm run build`
+2. **Styling and UI Frameworks:** Leveraged styling tools such as `@emotion/react`, `@emotion/styled`, and `tailwindcss` to create visually appealing and responsive user interfaces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Third-Party Integrations:** Integrated third-party libraries like `@mui/material`, `axios`, and `react-router-dom`, demonstrating the ability to select and utilize appropriate tools for enhancing functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Dynamic UI Features:** Incorporated the `react-infinite-scroll-component` library to implement dynamic features like infinite scrolling, enhancing the user experience with continuous content loading.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **API Integration:** Utilized the `axios` library to effectively integrate external APIs, fetching movie data and search results seamlessly.
 
-### `npm run eject`
+## Possible Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If I had 4 more hours, I would focus on:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Enhanced Test Coverage:** Dedicate time to writing comprehensive unit and integration tests to ensure stable functionality and maintainability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Pagination:** Implement pagination for displaying a fixed number of movies per page, enhancing user experience and load times.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **UI/UX Refinements:** Fine-tune the user interface, add loading indicators, and improve overall user interactions.
 
-## Learn More
+4. **Error Handling:** Implement robust error handling and user-friendly error messages for scenarios like API failures.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Feedback
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Overall, the challenge has been valuable in showcasing my React skills. While I haven't included tests in the current version due to time constraints, I recognize the importance of testing and plan to prioritize it in the future. The provided feedback throughout the challenge would be helpful for future iterations.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# GSIV23_Harshit
+---
